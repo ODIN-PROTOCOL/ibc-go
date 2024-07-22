@@ -8,7 +8,7 @@ import (
 	"runtime/debug"
 	"strings"
 
-	wasmvm "github.com/CosmWasm/wasmvm/v2"
+	wasmvm "github.com/ODIN-PROTOCOL/wasmvm/v2"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -379,7 +379,7 @@ var tempDir = func() string {
 }
 
 // CheckLibwasmVersion ensures that the libwasmvm version loaded at runtime matches the version
-// of the github.com/CosmWasm/wasmvm dependency in go.mod.
+// of the github.com/ODIN-PROTOCOL/wasmvm dependency in go.mod.
 // Ref: https://github.com/cosmos/ibc-go/issues/4821#issuecomment-1747240445
 func CheckLibwasmVersion(wasmExpectedVersion string) error {
 	if wasmExpectedVersion == "" {
@@ -416,7 +416,7 @@ func getExpectedLibwasmVersion() string {
 		panic("can't read build info")
 	}
 	for _, d := range buildInfo.Deps {
-		if d.Path != "github.com/CosmWasm/wasmvm/v2" {
+		if d.Path != "github.com/ODIN-PROTOCOL/wasmvm/v2" {
 			continue
 		}
 		if d.Replace != nil {

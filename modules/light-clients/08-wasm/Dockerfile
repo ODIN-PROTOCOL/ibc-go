@@ -11,7 +11,7 @@ RUN set -eux; apk add --no-cache git libusb-dev linux-headers gcc musl-dev make;
 ENV GOPATH=""
 
 # Grab the static library and copy it to location that will be found by the linker flag `-lwasmvm_muslc`.
-ADD https://github.com/CosmWasm/wasmvm/releases/download/${LIBWASM_VERSION}/libwasmvm_muslc.x86_64.a /lib/libwasmvm_muslc.x86_64.a
+ADD https://github.com/ODIN-PROTOCOL/wasmvm/releases/download/${LIBWASM_VERSION}/libwasmvm_muslc.x86_64.a /lib/libwasmvm_muslc.x86_64.a
 RUN sha256sum /lib/libwasmvm_muslc.x86_64.a | grep ${LIBWASM_CHECKSUM}
 RUN cp /lib/libwasmvm_muslc.x86_64.a /lib/libwasmvm_muslc.a
 
