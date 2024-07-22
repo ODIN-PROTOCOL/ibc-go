@@ -329,6 +329,7 @@ github.com/cockroachdb/tokenbucket v0.0.0-20230807174530-cc333fc44b06/go.mod h1:
 github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd/go.mod h1:sE/e/2PUdi/liOCUjSTXgM1o87ZssimdTWN964YiIeI=
 github.com/cometbft/cometbft v0.38.9 h1:cJBJBG0mPKz+sqelCi/hlfZjadZQGdDNnu6YQ1ZsUHQ=
 github.com/cometbft/cometbft v0.38.9/go.mod h1:xOoGZrtUT+A5izWfHSJgl0gYZUE7lu7Z2XIS1vWG/QQ=
+github.com/cometbft/cometbft v0.38.10/go.mod h1:jHPx9vQpWzPHEAiYI/7EDKaB1NXhK6o3SArrrY8ExKc=
 github.com/cometbft/cometbft-db v0.12.0 h1:v77/z0VyfSU7k682IzZeZPFZrQAKiQwkqGN0QzAjMi0=
 github.com/cometbft/cometbft-db v0.12.0/go.mod h1:aX2NbCrjNVd2ZajYxt1BsiFf/Z+TQ2MN0VxdicheYuw=
 github.com/containerd/continuity v0.3.0 h1:nisirsYROK15TAMVukJOUyGJjz4BNQJBVsNvAXZJ/eg=
@@ -345,6 +346,8 @@ github.com/cosmos/cosmos-proto v1.0.0-beta.5 h1:eNcayDLpip+zVLRLYafhzLvQlSmyab+R
 github.com/cosmos/cosmos-proto v1.0.0-beta.5/go.mod h1:hQGLpiIUloJBMdQMMWb/4wRApmI9hjHH05nefC0Ojec=
 github.com/cosmos/cosmos-sdk v0.50.8 h1:2UJHssUaGHTl4/dFp8xyREKAnfiRU6VVfqtKG9n8w5g=
 github.com/cosmos/cosmos-sdk v0.50.8/go.mod h1:Zb+DgHtiByNwgj71IlJBXwOq6dLhtyAq3AgqpXm/jHo=
+github.com/cosmos/cosmos-sdk v0.50.9-0.20240722112539-25d481f797ca h1:7LP9EoYG1X5PxGRJmOzay2QhbqK7/qg2QAgGsxbQXEU=
+github.com/cosmos/cosmos-sdk v0.50.9-0.20240722112539-25d481f797ca/go.mod h1:Jhu+HL7Qh4lPi6XFUx7aRu29O89yj8OUS//he8x911k=
 github.com/cosmos/go-bip39 v1.0.0 h1:pcomnQdrdH22njcAatO0yWojsUnCO3y2tNoV1cb6hHY=
 github.com/cosmos/go-bip39 v1.0.0/go.mod h1:RNJv0H/pOIVgxw6KS7QeX2a0Uo0aKUlfhZ4xuwvCdJw=
 github.com/cosmos/gogogateway v1.2.0 h1:Ae/OivNhp8DqBi/sh2A8a1D0y638GpL3tkmLQAiKxTE=
